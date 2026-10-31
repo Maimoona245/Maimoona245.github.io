@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Zaina Boutique</title>
+<meta name="description" content="Contact Zaina Boutique in Gulberg, Lahore. Address, hours, phone, email and message form.">
+<meta name="theme-color" content="#3d1f3a">
+<meta property="og:title" content="Contact — Zaina Boutique">
+<meta property="og:description" content="Contact Zaina Boutique in Gulberg, Lahore. Address, hours, phone, email and message form.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👗</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<nav class="nav" aria-label="Main navigation">
+  <a href="index.html" class="logo">👗 Zaina Boutique</a>
+  <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">☰</button>
+  <div class="nav-links" id="navLinks"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="contact.html" class="active" aria-current="page">Contact</a></div>
+</nav>
+<header class="page-hero"><h1>Contact Us</h1><p>Questions, orders or fittings? Send us a message and we will reply within one working day.</p></header>
+<main id="main">
+<section class="section">
+  <h2 class="center">Send Us a Message</h2>
+  <form id="contactForm" class="form" novalidate>
+    <div class="row">
+      <div><label for="name">Full Name</label><input type="text" id="name" name="name" placeholder="Your full name" autocomplete="name" required maxlength="100"></div>
+      <div><label for="email">Email Address</label><input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required maxlength="150"></div>
+    </div>
+    <div class="row">
+      <div><label for="phone">Phone Number</label><input type="tel" id="phone" name="phone" placeholder="03XX XXXXXXX" autocomplete="tel" required maxlength="20"></div>
+      <div><label for="subject">Subject</label><input type="text" id="subject" name="subject" placeholder="e.g. Bridal consultation" required maxlength="120"></div>
+    </div>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="6" placeholder="Tell us what you're looking for..." required maxlength="2000"></textarea>
+    <div class="hp" aria-hidden="true"><label>Leave empty<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+    <button type="submit" class="btn btn-primary">Send Message</button>
+    <p id="formMsg" class="form-msg" role="status" aria-live="polite"></p>
+  </form>
+  <div class="info-grid">
+    <div class="card"><div class="icon">📍</div><h3>Visit Us</h3><p>Zaina Boutique<br>Shop 12, MM Alam Road, Gulberg III<br>Lahore 54660, Pakistan</p></div>
+    <div class="card"><div class="icon">🕘</div><h3>Business Hours</h3><table class="hours"><tr><td>Monday – Saturday</td><td>9 AM – 6 PM</td></tr><tr><td>Sunday</td><td>Closed</td></tr></table></div>
+    <div class="card"><div class="icon">📞</div><h3>Get in Touch</h3><p><a href="tel:+923001234567">0300 1234567</a><br><a href="mailto:hello@zainaboutique.pk">hello@zainaboutique.pk</a></p></div>
+  </div>
+  <iframe class="map" title="Map showing Gulberg III, Lahore" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.openstreetmap.org/export/embed.html?bbox=74.3300%2C31.5030%2C74.3700%2C31.5330&amp;layer=mapnik"></iframe>
+</section>
+</main>
+<footer class="footer">
+  <h3>👗 Zaina Boutique</h3>
+  <p>Elegance, stitched with care.</p>
+  <div class="footer-links"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="contact.html">Contact</a></div>
+  <div class="social"><a href="https://instagram.com" rel="noopener">Instagram</a><a href="https://facebook.com" rel="noopener">Facebook</a><a href="https://wa.me/923001234567" rel="noopener">WhatsApp</a></div>
+  <small>© 2026 Zaina Boutique, Gulberg III, Lahore. All rights reserved.</small>
+</footer>
+<script src="script.js" defer></script>
+</body>
+</html>
